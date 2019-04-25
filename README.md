@@ -22,7 +22,7 @@ lcd.scrollLoop();
 lcd.scrollRow(0, "This is long scrollable text, that will definitely overflow.");
 
 # Method description
-### scrollRow((int)<row>, (String)<text to print>):
+### scrollRow((int)row, (String)text to print):
   Automaticly clears the desired row and starts printing on it.<br>
   This function MUST be called only once for each row, otherwise<br>
   the scroll index would be zeroed every time and text would be static.<br>
@@ -34,10 +34,10 @@ lcd.scrollRow(0, "This is long scrollable text, that will definitely overflow.")
 ### setRowScrollSpeed():
   Sets the speed of scrolling.
   
-### scrollClearRow/All((int)<row>/):
+### scrollClearRow/All((int)row/):
   Clears the desired row and stops scrolling on it.
   
-### scrollPause/Start((bool)<row1>,(bool)<row2>,(bool)<row3>,(bool)<row4>):
+### scrollPause/Start((bool)row1,(bool)row2,(bool)row3,(bool)row4):
   Pauses scrolling and keeps the msg and scroll index --> start continues scrolling.<br>
   EXPERIMENTAL AND NOT TESTED YET!
   
