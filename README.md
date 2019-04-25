@@ -10,6 +10,9 @@ You can always reference original LiquidCrystal object through lcd.lcd.METHOD();
 This library is an extension for LiquidCrystalDisplay_I2C library.<br>
 I2C only and it is tested only on 20x4 LCDisplay.<br>
 
+### 0. Requirements!
+library --> LiquidCrystalDisplay_I2C ==> PlatformIO id: 576
+
 ### 1. Initialize class
 LiquidCrystalScroller lcd = LiquidCrystalScroller(0x27,20,4);<br>
 
