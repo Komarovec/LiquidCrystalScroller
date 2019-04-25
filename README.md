@@ -22,7 +22,7 @@ lcd.scrollLoop();
 lcd.scrollRow(0, "This is long scrollable text, that will definitely overflow.");
 
 # Method description
-### scrollRow((int)row, (String)text to print):
+### scrollRow((String)text to print,(int)row):
   Automaticly clears the desired row and starts printing on it.<br>
   This function MUST be called only once for each row, otherwise<br>
   the scroll index would be zeroed every time and text would be static.<br>
