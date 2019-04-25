@@ -19,7 +19,7 @@ lcd.scrollLoop();
 // You MUST run your loop as frequent as you can!
 
 ### 4. Use included methods!
-lcd.scrollRow(0, "This is long scrollable text, that will definitely overflow.");
+lcd.scrollRow("This is long scrollable text, that will definitely overflow.",0);
 
 # Method description
 ### scrollRow((String)text to print,(int)row):
