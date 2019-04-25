@@ -1,11 +1,14 @@
 # LiquidCrystalScroller
 Arduino library for non-blocking scrolling on alphanumeric LCD.
+Print any text on the row of LCD.
+If the text is shorter than length of the row it will behave just like regular LCD library,
+but if the text is longer, then it will automaticly start the scrolling procces.
 
 # How To Use
 This library is an extension for LiquidCrystalDisplay_I2C library.
 I2C only and it is tested only on 20x4 LCDisplay.
 
-## 1. Initialize class
+### 1. Initialize class
 LiquidCrystalScroller lcd = LiquidCrystalScroller(0x27,20,4);
 
 ### 2. Begin com. with display
