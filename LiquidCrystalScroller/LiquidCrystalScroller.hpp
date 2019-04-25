@@ -17,9 +17,10 @@ public:
     void scrollPause();
     void scrollStart(bool, bool, bool, bool);
 
+    LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0,0,0);
+
     bool setRowScrollSpeed(int);
 private:
-    LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0,0,0);
     int rowScrollSpeed = 300;
     unsigned long rowScrollWait = 0;
     int disWait = 5;
