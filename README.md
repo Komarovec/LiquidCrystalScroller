@@ -4,6 +4,8 @@ Print any text on the row of LCD.<br>
 If the text is shorter than length of the row it will behave just like regular LCD library,<br>
 but if the text is longer, then it will automaticly start the scrolling procces.<br>
 
+You can always reference original LiquidCrystal object through lcd.lcd.METHOD();
+
 # How To Use
 This library is an extension for LiquidCrystalDisplay_I2C library.<br>
 I2C only and it is tested only on 20x4 LCDisplay.<br>
