@@ -44,5 +44,5 @@ lcd.scrollRow("This is long scrollable text, that will definitely overflow.",0);
   
 ### scrollPause/Start((bool)row1,(bool)row2,(bool)row3,(bool)row4):
   Pauses scrolling and keeps the msg and scroll index --> start continues scrolling.<br>
-  EXPERIMENTAL AND NOT TESTED YET!
+  EXPERIMENTAL AND NOT TESTED YET!!!
   
